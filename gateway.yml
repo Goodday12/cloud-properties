@@ -5,7 +5,7 @@ spring:
         cors-configurations:
           '[/**]':
             allowedOrigins: "http://localhost:3000"
-            allowedMethods: *
+            allowedMethods: "*"
       discovery:
         locator:
           enabled: true
